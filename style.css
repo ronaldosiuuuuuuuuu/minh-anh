@@ -1,0 +1,70 @@
+body {
+  font-family: "Baloo 2", cursive;
+  background-color: #fff0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.flower-border {
+  border: 10px solid transparent;
+  padding: 30px;
+  border-image: url("https://i.imgur.com/7YV1FqF.png") 30 round; /* khung hoa */
+  background-color: white;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+  font-size: 24px;
+  color: #ff4081;
+  margin-bottom: 10px;
+}
+
+.question-prompt {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.gif {
+  width: 250px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 12px;
+}
+
+.btn-group {
+  position: relative;
+}
+
+.yes-btn,
+.no-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.yes-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.no-btn {
+  background-color: #f44336;
+  color: white;
+  position: absolute;
+}
